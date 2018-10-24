@@ -1,4 +1,6 @@
-steps:
-- bash: |
-    echo Hello world
-    ls -l test-inner
+phases:
+- phase: Test
+  steps:
+  - bash: |
+      echo Hello world
+      ls -l test-inner
