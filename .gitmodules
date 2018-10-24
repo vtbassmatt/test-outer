@@ -1,0 +1,3 @@
+[submodule "test-inner"]
+	path = test-inner
+	url = https://github.com/vtbassmatt/test-inner.git
